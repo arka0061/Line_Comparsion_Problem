@@ -34,6 +34,7 @@ namespace Line_Comparison_Assignment
 
             obj1.lenght_Of_Line();
             obj1.equality_Of_Two_Lines();
+            obj1.equalityCheck2();
             
 
         }
@@ -59,5 +60,29 @@ namespace Line_Comparison_Assignment
             }
 
         }
+        public void equalityCheck2()
+        {
+            if (lenght_Of_Line1 >lenght_Of_Line2)
+            
+                Console.WriteLine("Line 1 is grater than Line 2 in Length!");
+            
+            if (lenght_Of_Line1 < lenght_Of_Line2)
+            
+                Console.WriteLine("Line 2 is grater than Line 1 in Length!");
+
+            
+            if (lenght_Of_Line1 == lenght_Of_Line2)
+            
+                Console.WriteLine("The Lines Are Equal in Length!");
+            
+            else
+            
+                Console.WriteLine("The Lines Are Not Equal in Length!");
+
+            
+
+
+        }
+       
     }
 }
