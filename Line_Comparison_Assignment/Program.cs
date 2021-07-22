@@ -16,21 +16,12 @@ namespace Line_Comparison_Assignment
             double length_Of_line2 = obj2.Line_Length();
             Console.WriteLine("Length of Line 1 is :" + length_Of_line1);
             Console.WriteLine("Length of Line 2 is :" + length_Of_line2);
-            if (length_Of_line1 > length_Of_line2)
-            {
-                Console.WriteLine("Length of Line 1 is grater than Line 2 ");
-            }
+           
             if (length_Of_line1 == length_Of_line2)
             {
                 Console.WriteLine("Length of Line 1 equal to Line 2 ");
             }
-            else
-            {
-                Console.WriteLine("Length of Line 2 is grater than Line 1 ");
-            }
-
-
-
+         
 
         }
 
