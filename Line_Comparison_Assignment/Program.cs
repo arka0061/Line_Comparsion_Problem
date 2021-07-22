@@ -5,7 +5,7 @@ namespace Line_Comparison_Assignment
     class Program
     {
 
-        double lenght_Of_Line1;
+        
 
         public static void Main(String[] args)
         {
